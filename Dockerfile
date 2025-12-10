@@ -7,7 +7,7 @@ RUN apk add --no-cache python3 py3-pip vim ffmpeg curl && \
 
 # Install npm packages
 RUN npm i -g  @google/genai mime @google-cloud/storage jsonrepair @mozilla/readability jsdom fs-extra aws-sdk \
-    microsandbox @aws-sdk/s3-request-presigner
+    microsandbox @aws-sdk/s3-request-presigner@3.931.0
 
 RUN npm i -D -g  @types/node
 
